@@ -89,12 +89,12 @@ func (h *voteAppHandler) post(w http.ResponseWriter, r *http.Request) {
 func newVoteAppHandler() *voteAppHandler {
 	return &voteAppHandler{
 		store: map[string]Vote{
-			"id_!23": Vote{
-				// Name:     "maziar",
-				// Vote:     "Cats",
-				// Hostname: "xyz123",
-				// ID:       "id_123",
-			},
+			// "id_!23": Vote{
+			// 	Name:     "maziar",
+			// 	Vote:     "Cats",
+			// 	Hostname: "xyz123",
+			// 	ID:       "id_123",
+			// },
 		},
 	}
 }
